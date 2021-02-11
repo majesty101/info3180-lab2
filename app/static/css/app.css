@@ -1,3 +1,65 @@
 body {
     padding-top: 5rem;
 }
+
+.container .top{
+    background-color: green;
+    color:white;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3em;
+  }
+
+.container .lead{
+    text-align: center;
+    padding-top:0.5em;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    width: 100px;
+    padding-top: 2em;
+    text-align: center;
+    line-height: 35px;
+    font-size: 22px;
+    color: black;
+  }
+  .follows-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .follows-container > div {
+    width: 100px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    color: grey;
+  }
+  .button1{
+  display: flex;
+  justify-content: center;
+  padding-left: 20em;
+  }
+
+ .button1 {
+
+   background-color: greenyellow; /* Green */
+   border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+   }
+
+
+  
+ img{
+     padding-top: 2em;
+     width: 100px;
+     border-radius: 50%;
+   }

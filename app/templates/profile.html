@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="top">
+<img src= "{{ url_for('static', filename='pic.jpg')}}">
+<h1>Mary Jane</h1>
+<p>@mjane</p>
+<p>Kingston Jamaica</p>
+<p> Joined {{day}}</p>
+</div>
+<p class="lead">I am smart and talented young woman who loves <br>website design and development. Contact me if<br> you'd like to work together on a new project</p>
+<div class="flex-container">
+    <div>7</div>
+    <div>100</div>
+    <div>250</div>  
+  </div>
+
+  <div class="follows-container">
+    <div>Post</div>
+    <div>Follows</div>
+    <div>Followers</div>  
+  </div>
+<!--<table>
+    <tr>
+        <th>&nbsp {{Post}} &nbsp  </th><br>
+        <th> &nbsp {{following}}  &nbsp  </th><br>
+        <th> &nbsp {{followers}}  &nbsp </th><br>
+    </tr>
+
+    <tr>
+        <td>Post  &nbsp  &nbsp &nbsp </td> 
+        <td>Following &nbsp  &nbsp &nbsp     </td>
+        <td>Followers &nbsp  &nbsp &nbsp </td> 
+    </tr>
+</table>-->
+<br>
+<br>
+<button class="button1">Follow</button>
+{% endblock %}
+
